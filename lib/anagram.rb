@@ -7,9 +7,10 @@ class Anagram
   end
 
   def match(words)
-    words.collect do |word|
+    match = []
+    words.each do |word|
       if word==@word
-        word
+        match <, word
       end
     end
   end
