@@ -7,6 +7,6 @@ class Anagram
   end
 
   def match(words)
-    words.collect {|word| word}
+    words.collect {|word| word==@word}
   end
 end
