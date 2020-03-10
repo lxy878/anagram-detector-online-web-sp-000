@@ -7,7 +7,7 @@ class Anagram
   end
 
   def match(words)
-    words.collect do |word|
+    mathc = words.collect do |word|
       if word==@word
         word
       end
