@@ -10,7 +10,7 @@ class Anagram
     match = []
     words.each do |word|
       if word==@word
-        match <, word
+        match << word
       end
     end
     match
