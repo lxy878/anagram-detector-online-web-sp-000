@@ -7,6 +7,9 @@ class Anagram
   end
 
   def match(words)
-    words.collect {|word| word==@word? word:""}
+    words.collect do |word|
+      if word==@word
+        word
+      end
   end
 end
